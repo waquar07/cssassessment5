@@ -1,0 +1,149 @@
+.sky{
+    width: auto;
+    height: 700px;
+    background-image: url(./sky.jpg);
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.road{
+    width: 300%;
+    height: 200px;
+    background-image: url(./road.jpg);
+    background-repeat: repeat-x;
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    animation-name: road;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes road {
+    100%{
+        transform: translateX(-2000px);
+    }
+}
+
+.sun{
+    /* background-image: url(./—Pngtree—cartoon\ sun_950393.png); */
+    position: absolute;
+    z-index: 2;
+    right: 84px;
+    top: 159px;
+    width: 105px;
+    height: 100px;
+    animation-name: sooraj;
+    animation-duration: 85s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+
+@keyframes sooraj {
+    50%{
+        transform: translateX(-800px);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+}
+
+.city{
+    background-image: url(./city.png);
+    width: 300%;
+    height: 251px;
+    background-repeat: repeat-x;
+    position: absolute;
+    z-index: 2;
+    bottom: 199px;
+    animation-name: city;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes city {
+    100%{
+        transform: translateX(-1700px);
+    }
+}
+
+.car{
+    position: absolute;
+    top: 415px;
+    z-index: 2;
+    left: 515px;
+    animation: cr 1s linear infinite;
+    /* animation-direction: alternate; */
+}
+
+@keyframes cr {
+    100%{
+        transform: translateY(2px);
+    }
+}
+
+.w1{
+    position: absolute;
+    bottom: 103px;
+    z-index: 2;
+    left: 555px;
+    animation: wheel;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wheel {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.w2{
+    position: absolute;
+    bottom: 104px;
+    z-index: 2;
+    right: 609px;
+    animation: wheel;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.h{
+    position: absolute;
+    top: 11px;
+    right: 881px;
+    font-size: 54px;
+    background-color: orange;
+}
+
+.img{
+    position: absolute;
+    top: 431px;
+    z-index: 2;
+    left: 832px;
+    width: 50px;
+}
+
+.i{
+    background-color: white;
+    position: absolute;
+    top: 11px;
+    left: 653px;
+    font-size: 54px;
+}
+
+.d{
+    position: absolute;
+    top: 11px;
+    font-size: 54px;
+    background-color: green;
+    left: 953px;
+}

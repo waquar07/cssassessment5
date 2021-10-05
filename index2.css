@@ -1,0 +1,83 @@
+body{
+    background-color: yellow;
+}
+
+ol{
+    margin-left: 42%;
+}
+
+.one{
+    background-color: teal;
+    width: 150px;
+    height: 150px;
+    transition: width 3s ease-in;
+}
+
+.one:hover{
+    width: 300px;
+}
+
+
+
+.two{
+    background-color: teal;
+    width: 150px;
+    height: 150px;
+    transition: width 3s ease-in , height 4s ease-in;
+}
+
+.two:hover{
+    width: 300px;
+    height: 380px;
+}
+
+.three{
+    background-color: teal;
+    width: 150px;
+    height: 150px;
+    transition: width 2s ease;
+}
+.three:hover{
+    width: 350px;
+}
+
+.four{
+    background-color: teal;
+    width: 150px;
+    height: 150px;
+    transition: width 1s ease-in;
+}
+.four:hover{
+    width: 350px;
+}
+
+.five{
+    background-color: teal;
+    width: 150px;
+    height: 150px;
+    transition: width 1s ease-out;
+}
+.five:hover{
+    width: 350px;
+}
+
+.six{
+    background-color: teal;
+    width: 150px;
+    height: 150px;
+    transition: width 2s ease-in-out;
+}
+.six:hover{
+    width: 350px;
+}
+
+.seven{
+    background-color: teal;
+    width: 150px;
+    height: 150px;
+    transition: width 2s ease-in-out;
+}
+
+.seven:hover{
+    width: 350px;
+}

@@ -1,0 +1,133 @@
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+.skewx{
+    background-color: teal;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 50px;
+    animation-name: skewx;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes skewx {
+    50%{
+        transform: skewX(30deg);
+    }
+    100%{
+        transform: skewX(-30deg);
+    }
+}
+ol{
+    margin-left: 391px;
+}
+/* .skewx:hover{
+    transform: skewX(30deg);
+} */
+.skewy{
+    background-color: lightcoral;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 70px;
+    animation-name: skewy;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes skewy {
+    50%{
+        transform: skewY(30deg);
+    }
+    100%{
+        transform: skewY(-30deg);
+    }
+}
+
+.rotate{
+    background-color: lightskyblue;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 70px;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.melement1{
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 70px;
+    animation-name: scaley;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transition: height 5s linear;
+}
+
+/* .melement1{
+    
+    animation-name: scaley;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transition: height 5s linear;
+} */
+
+@keyframes scaley {
+    50%{
+        transform: scaleY(1);
+    
+    }
+    90%{
+        transform: scaleY(-1);
+    }
+}
+
+.melement2{
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 70px;
+    animation: scalex 2s linear 0s infinite;
+}
+
+@keyframes scalex {
+    100%{
+        transform: scaleX(1.5);
+    }
+}
+.melement3{
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 70px;
+    animation-name: ro;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes ro {
+    100%{
+        transform: rotate(100deg);
+    }
+}
+
+

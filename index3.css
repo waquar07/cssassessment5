@@ -1,0 +1,84 @@
+.sky{
+    width: auto;
+    height: 700px;
+    background-image: url(./sky.jpg);
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+body{
+    border-top: 10px solid white;
+    border-left: 10px solid rgb(235, 129, 90);
+    border-right: 10px solid green;
+}
+​
+.road{
+    width: 300%;
+    height: 200px;
+    /* display: block; */
+    background-image: url(./road.jpg);
+    background-repeat: repeat-x;
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    animation-name: road;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+​
+
+​
+.city{
+    width: 300%;
+    height: 251px;
+    background-image: url(./city.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    z-index: 2;
+    bottom: 199px;
+    animation-name: cit;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+​
+
+​
+.car{
+    position: absolute;
+    top: 415px;
+    z-index: 2;
+    left: 500px;
+    animation: cr 2s linear infinite;
+}
+​
+
+​
+.wheel1{
+    position: absolute;
+    bottom: 103px;
+    z-index: 2;
+    left: 539px;
+    animation: wheel;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+​
+
+​
+.wheel2{
+    position: absolute;
+    bottom: 104px;
+    z-index: 2;
+    right: 588px;
+    animation: wheel;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
